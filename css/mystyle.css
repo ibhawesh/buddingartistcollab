@@ -2,19 +2,19 @@
   animation:blinkingText 1.2s infinite;
 }
 body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 14px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
   }
   h2 {
-    font-size: 24px;
+    font-size: 21px;
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
   }
   h4 {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
@@ -23,7 +23,7 @@ body {
   .jumbotron {
     background-color: #f4511e;
     color: #fff;
-    padding: 100px 25px;
+    padding: 98px 22px;
     font-family: Montserrat, sans-serif;
   }
   .container-fluid {
