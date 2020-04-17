@@ -13,6 +13,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Copse' rel='stylesheet'>
 
   <link rel="stylesheet" href="css/mystyle.css">
   <link rel="stylesheet" href="css/particle.css">
@@ -55,42 +56,100 @@
         text-emphasis: center;
         width: 200px;
         height:200px;
+        margin-top: 14px !important;
     }
-</style>
+    .meow h2 {
+    font-family: 'Copse'!important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600 !important;
+    margin-bottom: 5 !important;
+  }
+  .meow h4{
+    font-family: 'Coustard';
+    font-weight: 100 !important;
+    /* margin-bottom: 5 !important; */
+    line-height: 1 !important;
+  }
+
+  .meow .col-sm-3{
+      margin-bottom: 14px !important;
+      margin-left: 13px !important;
+      border: 3px solid orangered !important;
+  }
+  .meow .btn-success{
+      background-color: orangered;
+      font-family: 'Copse'!important;
+      width: 100%;
+  }
+  .meow .btn-success:hover{
+      background-color:black;
+      color: blanchedalmond;
+  }
+  .meow .col-sm-3:hover{
+      background-color: #81818147;
+  }
+  .meow .h6{
+    font-family: 'Angkor';font-size: 8px;
+}
+
+.blink_me {
+    line-height: 0px !important;
+	font-size:13px !important;
+  animation: blinker 3s linear infinite;
+}
+.munu .blink_me {
+    line-height: 0px !important;
+	font-size:7px !important;
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+</style>    
 
 
-<div  class="container-fluid text-center bg-grey">
+<div  class="container-fluid text-center bg-grey meow">
   <h2>Result Pannel</h2>
   <h4>RESULT FOR 08-APRIL-2020</h4>
     <div class="container">
       <div class="row">
           <div class="col-sm-3">
-              <img class="image-size" src="img/winner.jpg" class="thumbnail">
-              <h2>WINNER <STRONG>-  POINTS</STRONG></h2>
-              <H4><strong></strong></H4>
-              <H4>DARJEELING</H4>
+              <img class="image-size" src="img/K.jpeg" class="thumbnail">
+              <h2>WINNER</h2>
+              <h4> <STRONG>KISMAT LIMBU</STRONG></h4>
+		<h4> <STRONG>VOTES : 515</STRONG></h4>
+              <H4 style="color: red !important;"><strong><u>YOUTUBE VIEWS</u>- 418 </strong></H4>
+              <h6 class="blink_me">VIEWS :7.04.2020 |10 A.M</h6>
+              <H4>NOORE, BIJANBARI</H4>
           </div>
 
           <div class="col-sm-3">
-            <img class="image-size" src="img/winner.jpg" class="thumbnail">
-              <h2>1ST RUNNER UP - <STRONG>  POINTS</STRONG></h2>
-              <H4><strong> </strong></H4>
-              <H4>DARJEELING </H4>
+            <img class="image-size" src="img/Susmita.jpeg" class="thumbnail">
+            <h2>1ST RUNNER UP</h2>
+            <h4> <STRONG>SUSMITA THAPA</STRONG></h4>
+		<h4> <STRONG>VOTES : 495</STRONG></h4>
+            <H4 style="color: red !important;"><strong><u>YOUTUBE VIEWS</u>- 218</strong></H4>
+            <h6  class="blink_me">VIEWS :7.04.2020 |10 A.M</h6>
+            <H4>NOORE, BIJANBARI</H4>
         </div>
 
         <div class="col-sm-3">
-            <img class="image-size" src="img/winner.jpg" class="thumbnail">
-            <h2>2ND RUNNER UP <STRONG>291 POINTS</STRONG></h2>
-            <H4><strong></strong></H4>
-            <H4></H4>
+            <img class="image-size" src="img/Samiksha.jpeg" class="thumbnail">
+            <h2>2ND RUNNER UP</h2>
+            <h4> <STRONG>SAMIKCHA MANGER</STRONG></h4>
+		<h4> <STRONG>VOTES : 478</STRONG></h4>
+            <H4 style="color: red !important;"><strong><u>YOUTUBE VIEWS</u>- 98</strong></H4>
+            <h6  class="blink_me">VIEWS :7.04.2020 |10 A.M</h6>
+            <H4>CHAMONG, MIRIK</H4>
         </div>
         
-        <div class="col-sm-3">
-            <img class="image-size" src="img/winner.jpg" class="thumbnail">
-            <h2>2ND RUNNER UP <STRONG>291 POINTS</STRONG></h2>
-            <H4><strong></strong></H4>
-            <H4></H4>
-        </div>
+
 
       </div>
       <a href=" https://youtu.be/k90i2u8F6mY" class="btn btn-success">WATCH NOW</a>
@@ -111,98 +170,115 @@
     margin-bottom: 5;
     
   }
+ 
   </style>
   <br>
   <h2>PARTICIPANTS</h2>
-  <div class="container-fluid">
+  <div class="container-fluid munu">
       <div class="row">
         <div class="col-sm-4 thumbnaill">
+            <img src="img/Nitesh.jpeg">
+           <h5><strong>4. NITESH PRADHAN - TINDHARIA</strong> </h5>
+           <h5><strong>VOTE: 444</strong></h5>
+           <H4>YOUTUBE VIEWS - 44</H4>
+           <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
+        </div>
+        <div class="col-sm-4 thumbnaill">
             <img src="img/Jharna.jpeg">
-           <h5><strong>1. JHARNA RAI - CHAMONG MIRIK</strong> </h5>
-           <h5>000 Points</h5>
-            
+            <h5><strong>5. JHARNA RAI - CHAMONG</strong> </h5>
+            <h5><strong>VOTE: 401 </strong></h5>
+            <H4>YOUTUBE VIEWS - 140</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
+        </div>
+        <div class="col-sm-4 thumbnaill">
+          <img src="img/neha.jpeg">
+          <h5><strong>6. NEHA GURUNG - JHEPI </strong> </h5>
+          <h5><strong>VOTE: 384 </strong></h5>
+          <H4>YOUTUBE VIEWS - 49</H4>
+          <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
+      </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-sm-4 thumbnaill">
+            <img src="img/Pallavi.jpeg">
+            <h5><strong>7. PALLAVI RAI - SONADA </strong> </h5>
+            <h5><strong>VOTE: 366 </strong></h5>
+            <H4>YOUTUBE VIEWS - 98</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
+        </div>
+        <div class="col-sm-4 thumbnaill">
+            <img src="img/Sikha.jpeg">
+            <h5><strong>8. SIKHA THAPA - 86 </strong> </h5>
+            <h5><strong>VOTE: 361 </strong></h5>
+            <H4>YOUTUBE VIEWS - 26</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
         </div>
         <div class="col-sm-4 thumbnaill">
             <img src="img/karishma.jpg">
-           <h5><strong>2. KARISHMA RAI - TUMSANG</strong> </h5>
-           <h5>000 Points</h5>
-            
-        </div>
-        <div class="col-sm-4 thumbnaill">
-            <img src="img/K.jpeg">
-           <h5><strong>3. KISHMAT LIMBU - NOORE</strong> </h5>
-           <h5>000 Points</h5>
+            <h5><strong>9. KARISHMA RAI - TAMSANG </strong> </h5>
+            <h5><strong>VOTE: 312 </strong></h5>
+            <H4>YOUTUBE VIEWS - 22</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
             
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 thumbnaill">
-            <img src="img/neha.jpeg">
-           <h5><strong>4. NEHA GURUNG - JHEPI</strong> </h5>
-           <h5>000 Points</h5>
-            
-        </div>
-        <div class="col-sm-4 thumbnaill">
-            <img src="img/Nitesh.jpeg">
-           <h5><strong>5. NITESH PRADHAN - TINDHARIA</strong> </h5>
-           <h5>000 Points</h5>
-            
-        </div>
-        <div class="col-sm-4 thumbnaill">
-            <img src="img/Pallavi.jpeg">
-           <h5><strong>6. PALLAVI RAI - SONADA</strong> </h5>
-           <h5>000 Points</h5>
-            
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 thumbnaill">
-            <img src="img/PrashantKhatiwada.jpeg">
-           <h5><strong>7. PRASHANT KHATIWADA - SUMBUCK</strong> </h5>
-           <h5>000 Points</h5>
-            
-        </div>
         <div class="col-sm-4 thumbnaill">
             <img src="img/Pritam.jpeg">
-           <h5><strong>8. PRITAM MAINAKI - GOKE</strong> </h5>
-           <h5>000 Points</h5>
+            <h5><strong>10. Pritam Mainali - GOKE </strong> </h5>
+            <h5><strong>VOTE: 275 </strong></h5>
+            <H4>YOUTUBE VIEWS - 27</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
+        </div>
+        <div class="col-sm-4 thumbnaill">
+            <img src="img/Sun.jpg">
+            <h5><strong>11. SUNKSHERI THEENG - NEPAL </strong> </h5>
+            <h5><strong>VOTE: 266 </strong></h5>
+            <H4>YOUTUBE VIEWS - 45</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
             
         </div>
         <div class="col-sm-4 thumbnaill">
             <img src="img/Pushpam.jpeg">
-           <h5><strong>9. PUSPAM SUBBA - BARERAY</strong> </h5>
-           <h5>000 Points</h5>
-            
+            <h5><strong>12. PUSHPAM SUBBA - BARERAY </strong> </h5>
+            <h5><strong>VOTE: 222 </strong></h5>
+            <H4>YOUTUBE VIEWS - 8</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
         </div>
       </div>
-      <div class="row">
+       <div class="row">
         <div class="col-sm-4 thumbnaill">
-            <img src="img/Samiksha.jpeg">
-           <h5><strong>10. SAMIKCHA RAI - CHAMONG MIRIK</strong> </h5>
-           <h5>000 Points</h5>
-            
+            <img src="img/Yalam.jpeg">
+            <h5><strong>13. YALAM RAI - MANGPOO </strong> </h5>
+            <h5><strong>VOTE: 215 </strong></h5>
+            <H4>YOUTUBE VIEWS - 9</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
         </div>
-        <div class="col-sm-4 thumbnaill">
-            <img src="img/Sapna.jpeg">
-           <h5><strong>11. SAPNA THAPA - 86 LAMIN DHURA</strong> </h5>
-           <h5>000 Points</h5>
-            
-        </div>
-        <div class="col-sm-4 thumbnaill">
-            <img src="img/Sikha.jpeg">
-           <h5><strong>12. SIKHA THAPA - 86</strong> </h5>
-           <h5>000 Points</h5>
-            
-        </div>
-      </div>
-      <div class="row">
         <div class="col-sm-4 thumbnaill">
             <img src="img/SmritaRai.jpeg">
-           <h5><strong>13.SMRITA RAI - TEESTA VALLEY</strong> </h5>
-           <h5>000 Points</h5>
-            
+            <h5><strong>14. SMRITA RAI - TEESTA VALLEY </strong> </h5>
+            <h5><strong>VOTE: 201 </strong></h5>
+            <H4>YOUTUBE VIEWS - 15</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
         </div>
         <div class="col-sm-4 thumbnaill">
+            <img src="img/PrashantKhatiwada.jpeg">
+            <h5><strong>15. PRASHANT KHATIWADA - SUMBUCK </strong> </h5>
+            <h5><strong>VOTE: 145 </strong></h5>
+            <H4>YOUTUBE VIEWS - 4</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 thumbnaill">
+            <img src="img/Sapna.jpeg">
+            <h5><strong>16. SAPNA THAPA - 86 </strong> </h5>
+            <h5><strong>VOTE: 143 </strong></h5>
+            <H4>YOUTUBE VIEWS - 7</H4>
+            <h6  class="blink_me">VIEWS AS ON 7TH APRIL 2020 |10 A.M</h6>
+        </div>
+        <!-- <div class="col-sm-4 thumbnaill">
             <img src="img/Susmita.jpeg">
            <h5><strong>14.SUSMITA THAPA - NOORE BUSTY BIJANBARI</strong> </h5>
            <h5>000 Points</h5>
@@ -213,16 +289,16 @@
            <h5><strong>15. SUNKSHERI THEENG -NEPAL</strong> </h5>
            <h5>000 Points</h5>
             
-        </div>
-      </div>
-      <div class="row">
+        </div> -->
+      <!-- </div> -->
+      <!-- <div class="row">
         <div class="col-sm-4 thumbnaill">
             <img src="img/Yalam.jpeg">
            <h5><strong>16.Yalam RAI - TEESTA VALLEY</strong> </h5>
            <h5>000 Points</h5>
             
         </div>
-        </div>
+        </div> -->
   </div>
   <a href=" https://youtu.be/k90i2u8F6mY" class="btn btn-success">WATCH NOW</a>
     
