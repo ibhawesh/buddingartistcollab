@@ -117,7 +117,7 @@
             
             
             
-            <div class="form-group">
+                          <div class="form-group">
 				<label class="control-label col-sm-2" for="email">VOTER'S NAME :</label>
 				<div class="col-sm-10">
 					<input class="form-control" id="nameField" name="entry.484271059" placeholder="Enter your name" type="text" required> 
@@ -142,7 +142,7 @@
 			  </div>
 			  <div class="form-group">        
 				<div class="col-sm-offset-2 col-sm-10">
- 					<H4>VOTING TIME OVER</H4> 
+ 					
 				<button class="form-control btn btn-success" id="send" type="submit" class="common_btn">VOTE NOW</button> 
 				</div>
 			  </div>
@@ -192,7 +192,7 @@
     }
     else{
       //Salert("No cookie");
-      document.cookie = "VOTE= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"		  
+    		  
       document.cookie = "VOT=TRU; expires=Thu, 31 Dec 2099 23:59:59 GMT";
       $.ajax({
         url: "https://docs.google.com/forms/d/e/1FAIpQLSeYXbFrMbUwzAQJipi0KlTlDAxb0MprpiGiGCOf4s9cF-Qy7g/formResponse?",
