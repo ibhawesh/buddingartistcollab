@@ -183,7 +183,7 @@
           name = cookiearray[i].split('=')[0];
           value = cookiearray[i].split('=')[1];
         }
-        if(name == "VOTEE" && value == "TRUEE"){
+        if(name == "VOT" && value == "TRU"){
         
             alert("YOU AVE ALREADY VOTED!!!!!");
             return;
@@ -191,7 +191,7 @@
     }
     else{
       //Salert("No cookie");
-      document.cookie = "VOTEE=TRUEE; expires=Thu, 31 Dec 2099 23:59:59 GMT";
+      document.cookie = "VOT=TRU; expires=Thu, 31 Dec 2099 23:59:59 GMT";
       $.ajax({
         url: "https://docs.google.com/forms/d/e/1FAIpQLSeYXbFrMbUwzAQJipi0KlTlDAxb0MprpiGiGCOf4s9cF-Qy7g/formResponse?",
         data: {"entry.484271059": field1, "entry.1617838564": field2, "entry.1620187497": field3, "entry.1935172545": field4, "entry.541381426": field5},
