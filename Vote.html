@@ -191,6 +191,7 @@
     }
     else{
       //Salert("No cookie");
+      document.cookie = "VOTE= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"		  
       document.cookie = "VOT=TRU; expires=Thu, 31 Dec 2099 23:59:59 GMT";
       $.ajax({
         url: "https://docs.google.com/forms/d/e/1FAIpQLSeYXbFrMbUwzAQJipi0KlTlDAxb0MprpiGiGCOf4s9cF-Qy7g/formResponse?",
